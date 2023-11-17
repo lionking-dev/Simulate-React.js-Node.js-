@@ -1,0 +1,33 @@
+{
+    "text_fields" : [
+        {
+            "label": "Number of orders:",
+            "type": "Number",
+            "prop": "numOrders",
+            "event": "setNumOrders"
+        },
+        {
+            "label": "Maximum processing time (seconds):",
+            "type": "Number",
+            "prop": "maxProcessingTime",
+            "event": "setMaxProcessingTime"
+        },
+        {
+            "label": "Number of order processors:",
+            "type": "Number",
+            "prop": "numOrderProcessors",
+            "event": "setSimulationResults"
+        }
+    ],
+    "submit_buttons" : {
+        "text": "Start Simulation"
+    },
+    "result_text": [
+        {
+            "text": "1. Display the orders completed by each order processor along with the elapsed time to process that order"
+        },
+        {
+            "text": "2. Output the number of orders processed by each processor and the average time to complete orders for that processo"
+        }
+    ]
+}
